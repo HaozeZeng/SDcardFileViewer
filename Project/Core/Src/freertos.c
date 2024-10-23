@@ -175,7 +175,7 @@ void LedTask(void *argument) {
 void LvglCreate(void *argument) {
     /* USER CODE BEGIN LvglCreate */
     /* Infinite loop */
-    SDcardFileViewerStart("0:", SanJiBang_12);
+    SDcardFileViewerStart("0:", SanJiBang_16);
     for (;;) {
         lv_timer_handler();
         osDelay(pdMS_TO_TICKS(5));
